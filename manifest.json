@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name" : "Skipp Ads",
+    "version" : "1.0.0",
+    "description": "Automatically press skip button on Youtube lol",
+    "content_scripts" : [
+        {
+            "js": ["content-script.js"],
+            "matches": ["https://www.youtube.com/watch*"]
+        }
+    ]
+}
